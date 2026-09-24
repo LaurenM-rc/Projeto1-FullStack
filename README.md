@@ -1,48 +1,58 @@
 # 🛍️ E-commerce
 
-> Uma loja virtual construída do zero com React.
+> **Uma experiência de loja construída em uma única página.**
 
-Projeto de **full stack de e-commerce**, inicialmente desenvolvendo o **front-end**, desenvolvido com **React + Vite**, utilizando a **DummyJSON** para o consumo de dados dos produtos.
+Projeto desenvolvido para a disciplina de **Programação Web Fullstack**, utilizando **React.js** para a construção de uma **Single Page Application (SPA)**.
 
-A proposta é criar uma experiência de loja simples, moderna e responsiva, praticando desenvolvimento de interfaces e integração com APIs.
+A aplicação consome dados da **DummyJSON** através de requisições AJAX e transforma essas informações em uma experiência de e-commerce interativa.
 
-### ⚙️ Tecnologias
+---
 
-* React
-* Vite
-* JavaScript
-* CSS
-* React Router
-* Axios
-* DummyJSON
+### ⚛️ Tecnologias
 
-### ✨ Projeto
+* **React.js**
+* **JavaScript**
+* **Vite**
+* **CSS**
+* **DummyJSON**
+
+### 🔗 API
+
+**DummyJSON** — API utilizada para fornecer os dados dos produtos.
+
+[Documentação](https://dummyjson.com/docs)
+
+### ✦ Conceito
 
 ```text
-🛒 E-commerce
-│
-├── 🏠 Home
-├── 🛍️ Produtos
-├── 🔎 Busca
-├── 📦 Detalhes do produto
-└── 🛒 Carrinho
+        🛍️ E-COMMERCE
+
+             React
+               │
+        ┌──────┴──────┐
+        ↓             ↓
+     Produtos      Carrinho
+        │             │
+        └──────┬──────┘
+               ↓
+           DummyJSON
 ```
 
-### 🔌 API
+Toda a interação acontece **sem recarregar a página**, seguindo o conceito de SPA.
 
-Os produtos são obtidos através da **DummyJSON**.
+### 🎯 Objetivo
 
-[Documentação da API](https://dummyjson.com/docs)
+Praticar o desenvolvimento de aplicações web com React.js, explorando **componentização, consumo de APIs, gerenciamento de estado e atualização dinâmica da interface**.
+
+---
 
 ### 🚧 Status
 
 **Em desenvolvimento**
 
----
+### 👩‍💻 Equipe
 
-### 👩‍💻 Lauren Marçulo
-### 👩‍💻 Manuella Vieira Reginato
+* Lauren Marçulo
+* Manuella Vieira Reginato
 
-`ADS • UTFPR`
-
-**Desenvolvimento Web • Full Stack**
+**UTFPR — Programação Web Fullstack**

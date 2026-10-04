@@ -106,12 +106,6 @@ aurora-beauty/
 ```
 
 
-## 🌐 Publicação
-
-O site é publicado no **GitHub Pages**:
-
-**https://laurenm-rc.github.io/Projeto1-FullStack/**
-
 ## 🤖 Ferramentas de apoio
 
 Durante o desenvolvimento foi utilizada uma ferramenta de **inteligência artificial (Claude, da Anthropic)** como apoio, em itens como a organização inicial do código, revisão e explicações dos conceitos do material da disciplina. O código foi revisado, testado e ajustado pelo grupo.

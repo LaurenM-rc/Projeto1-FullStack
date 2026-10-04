@@ -114,8 +114,8 @@ Durante o desenvolvimento foi utilizada uma ferramenta de **inteligência artifi
 
 | Integrante | RA |
 | --- | --- |
-| [Lauren Marçulo] | 2767090 |
-| [Manuella Vieira Reginato | 2767120 |
+| Lauren Marçulo | 2767090 |
+| Manuella Vieira Reginato | 2767120 |
 
 ---
 

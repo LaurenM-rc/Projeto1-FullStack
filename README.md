@@ -48,8 +48,9 @@ Abra o endereço mostrado no terminal (normalmente http://localhost:5173).
 
 ## Uso de ferramentas de apoio (IA)
 
-Estrutura inicial do código gerada com apoio do Claude (Anthropic), com base no material da disciplina (capítulo 5). O grupo deve revisar, entender e ajustar o código, e registrar aqui o que foi modificado por cada integrante.
+Estrutura inicial do código gerada com apoio do Claude (Anthropic), com base no material da disciplina (capítulo 5). 
 
 ## Equipe
 
-- _Nome — parte da aplicação sob responsabilidade_
+- Lauren Marçulo RA: 2767090
+- Manuella Vieira Reginato RA: 2767120

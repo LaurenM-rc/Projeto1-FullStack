@@ -28,7 +28,14 @@ function ListaProdutos() {
 
   // Estado 2 — erro
   if (erro) {
-    return <Alert variant="danger">Não foi possível carregar os produtos. {erro}</Alert>;
+    return (
+      <Alert variant="danger">
+        <p>Não foi possível carregar os produtos. {erro}</p>
+        <Button variant="outline-danger" onClick={() => carregarVitrine()}>
+          Tentar novamente
+        </Button>
+      </Alert>
+    );
   }
 
   const visiveis = categoria ? produtos.filter((p) => p.category === categoria) : produtos;

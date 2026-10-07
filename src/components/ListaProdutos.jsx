@@ -21,7 +21,9 @@ function ListaProdutos() {
   if (carregando) {
     return (
       <div className="text-center my-5">
-        <Spinner animation="border" role="status" />
+        <Spinner animation="border" role="status">
+          <span className="visually-hidden">Carregando produtos...</span>
+        </Spinner>
       </div>
     );
   }

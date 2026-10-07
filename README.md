@@ -3,7 +3,7 @@
 # 🌸 Aurora Beauty
 
 **Loja virtual de maquiagem, skin care e perfumes**
-Projeto 1 · ReactJS — Programação Web Full Stack
+Projeto 1 · ReactJS | Programação Web Full Stack
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)

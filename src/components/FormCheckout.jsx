@@ -14,6 +14,11 @@ function validarCheckout(dados) {
   return erros;
 }
 
+function formatarCep(valor) {
+  const numeros = valor.replace(/\D/g, '').slice(0, 8);
+  return numeros.length > 5 ? `${numeros.slice(0, 5)}-${numeros.slice(5)}` : numeros;
+}
+
 function FormCheckout({ onVoltar, onConcluido }) {
   const { itens, limpar } = useCarrinho();
   const { finalizarPedido } = useLoja();
@@ -23,10 +28,11 @@ function FormCheckout({ onVoltar, onConcluido }) {
   const [enviando, setEnviando] = useState(false);
   const [erroEnvio, setErroEnvio] = useState(null);
 
-  function handleChange(evento) {
-    const { name, value } = evento.target;
-    setDados((anterior) => ({ ...anterior, [name]: value }));
-  }
+function handleChange(evento) {
+  const { name, value } = evento.target;
+  const novoValor = name === 'cep' ? formatarCep(value) : value;
+  setDados((anterior) => ({ ...anterior, [name]: novoValor }));
+}
 
   async function handleSubmit(evento) {
     evento.preventDefault();

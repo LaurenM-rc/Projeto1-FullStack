@@ -34,7 +34,7 @@ Na loja é possível navegar pela vitrine, buscar produtos, ver detalhes e avali
 | 🔍 **Detalhes do produto** | Janela (modal) com descrição, estoque, entrega, troca e avaliações. |
 | 👜 **Sacola de compras** | Adicionar, aumentar/diminuir quantidade, remover e ver o subtotal. |
 | ✅ **Checkout** | Formulário de entrega com validação e envio do pedido (`POST` em JSON). |
-| ⚠️ **Estados de tela** | Carregando, erro, vazio e sucesso, em todas as consultas à API. |
+| ⚠️ **Estados de tela** | Carregando com descrição acessível, erro com botão para tentar novamente, vazio e sucesso nas consultas de produtos. |
 
 ## 🧰 Tecnologias
 
